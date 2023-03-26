@@ -1,16 +1,25 @@
-# honeb
+# HoneB - DL based H1B visa prediction App
 
-A new Flutter project.
+<b><i>The Problem Statement</b></i>: The number of people moving abroad in pursuit of higher-paying professions, reputable education, and modern surroundings have been increasing drastically each year. As a consequence the application for H1B visa have also increased in number drastically. Given the volume of applications, the likelihood of a visa being rejected is very high. Numerous American employers want to hire qualified foreign workers each year. Thousands of applicants still receive H-1B visa denials even though many are successful in bringing their new staff to the United States.
 
-## Getting Started
+<b><i>The Solution Application</b></i>: The Flutter based cross platform mobile application uses the Django rest framework for its backend access where there is a Deep neural network based prediction model to predict the acceptance of H1B visa for the application user
 
-This project is a starting point for a Flutter application.
+<b>Deep Neural Network:</b> <br>
+Number of Hidden Layers:5<br>
+Activation Function for Hidden Layers:Relu<br>
+Number of Output Layer:1<br>
+Activation Function for Output Layer:Sigmoid<br>
+Optimizer:Adam<br>
+Loss Function:Binary crossentropy<br>
 
-A few resources to get you started if this is your first Flutter project:
+<i>The accuracy we got for deep neural network is 98%.</i>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<b><i>Screenshots</b></i>:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://user-images.githubusercontent.com/68806315/227773338-01dddd73-3e92-45a2-8bfd-49ba9845754d.png" width="200" height="400" />
+<img src="https://user-images.githubusercontent.com/68806315/227773355-f907df15-5332-4ca0-b373-853f3d23abba.png" width="200" height="400" />
+<img src="https://user-images.githubusercontent.com/68806315/227773356-a0f4007a-6ddc-481e-ac14-e0202f49b8ad.png" width="200" height="400" />
+<img src="https://user-images.githubusercontent.com/68806315/227773360-4916f8b8-7d7e-495a-9fad-2c7206ddedf6.png" width="200" height="400" />
+<img src="https://user-images.githubusercontent.com/68806315/227773369-f8762a3b-b0a9-42d3-a41f-3208dd2b16e4.png"  />
+
+
