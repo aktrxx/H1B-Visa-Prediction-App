@@ -9,7 +9,7 @@
 .history
 .svn/
 migrate_working_dir/
-urls.dart
+urls.dart #Api endpoints ignored for security purpose
 
 # IntelliJ related
 *.iml
